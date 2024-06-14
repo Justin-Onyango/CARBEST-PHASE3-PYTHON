@@ -5,8 +5,9 @@ CarBest is an online car dealership aiming to connect buyers and sellers seamles
 
 ## Set-up and Running
 1. Open the terminal and run 'pipenv install' followed by 'pipenv shell'
-2. Run 'python -m lib.cli' to start the session
-3. There are five actions provided namely, Exit, Upload a car, Sell my car, Update my car details and View all cars
+2. Set up the database 'python setup_db.py'
+3. Run 'python -m lib.cli' to start the session
+4. There are five actions provided namely, Exit, Upload a car, Sell my car, Update my car details and View all cars
 
 ## Features
 This is a CLI application that primarily relies on python
